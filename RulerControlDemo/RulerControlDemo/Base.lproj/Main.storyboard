@@ -29,11 +29,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0u6-IG-I81">
+                                <rect key="frame" x="128" y="91.5" width="118" height="70"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="fcR-su-EKx"/>
+                                    <constraint firstAttribute="height" constant="70" id="id6-yb-xiB"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ADG-zz-vJZ" secondAttribute="trailing" id="2HW-4p-oaM"/>
+                            <constraint firstItem="0u6-IG-I81" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U4k-OH-eQH"/>
                             <constraint firstItem="ADG-zz-vJZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="iGj-vz-AgU"/>
+                            <constraint firstItem="0u6-IG-I81" firstAttribute="top" secondItem="ADG-zz-vJZ" secondAttribute="bottom" constant="20" id="jWw-u8-Ow1"/>
                             <constraint firstItem="ADG-zz-vJZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="udn-DU-zfl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,6 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="36" y="33.733133433283363"/>
         </scene>
     </scenes>
 </document>
